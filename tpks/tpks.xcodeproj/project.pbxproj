@@ -6,11 +6,26 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		C6284E9116FDC26A00541F15 /* qweqwe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qweqwe.h; sourceTree = "<group>"; };
+		C6284E9216FDC26A00541F15 /* qweqwe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qweqwe.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		C6284E8916FDC20D00541F15 = {
 			isa = PBXGroup;
 			children = (
+				C6284E9016FDC25600541F15 /* TPKS */,
 			);
+			sourceTree = "<group>";
+		};
+		C6284E9016FDC25600541F15 /* TPKS */ = {
+			isa = PBXGroup;
+			children = (
+				C6284E9116FDC26A00541F15 /* qweqwe.h */,
+				C6284E9216FDC26A00541F15 /* qweqwe.m */,
+			);
+			name = TPKS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
