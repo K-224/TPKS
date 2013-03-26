@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <form class="authorization" method='POST' action=log.php>
+
+<table >
+<tbody>
+<tr>
+	<td >
+	<label for="login">Логин</label>
+	</td>
+	<td >
+	<input class="authorization" id="login" name="login" type="text" size="15" autocomplete="off" onclick="return { oOptions : { bFocusOnInit : true }, oRequired : { iMin : 5 }, oValid : { rPattern : /^[\w\d_\-]+$/ } }" />
+	</td>
+	<td rowspan="2" height="50">
+	<input class="enter"  value="Войти" type="submit" >
+	</input>
+	</td>
+</tr>
+<tr>
+	<td >
+	<label for="pass">Пароль</label>
+	</td>
+	<td>
+	<input class="authorization" id="pass" name="password" type="password" size="15" autocomplete="off" onclick="return { oRequired : { iMin : 6 } }" />
+	</td>
+</tr>
+	</table>
+	</form> 
+    </body>
+</html>
