@@ -1,0 +1,198 @@
+﻿/* ========== Text Styles ========== */
+hr { color: #000000}
+body, table, span.rvts0 /* Normal text */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.rvts1 /* Heading */
+{
+ font-weight: bold;
+ color: #0000ff;
+}
+span.rvts2 /* Subheading */
+{
+ font-weight: bold;
+ color: #000080;
+}
+span.rvts3 /* Keywords */
+{
+ font-style: italic;
+ color: #800000;
+}
+a.rvts4, span.rvts4 /* Jump 1 */
+{
+ color: #008000;
+ text-decoration: underline;
+}
+a.rvts5, span.rvts5 /* Jump 2 */
+{
+ color: #008000;
+ text-decoration: underline;
+}
+span.rvts6 /* Font Style */
+{
+}
+span.rvts7 /* Font Style */
+{
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ font-style: italic;
+ color: #c0c0c0;
+}
+a.rvts8, span.rvts8 /* Font Style */
+{
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ font-style: italic;
+ color: #6666ff;
+ text-decoration: underline;
+}
+span.rvts9
+{
+ font-size: 11pt;
+ font-family: 'calibri';
+}
+span.rvts10
+{
+ font-size: 11pt;
+ font-family: 'calibri';
+ color: #000000;
+}
+span.rvts11
+{
+ font-size: 8pt;
+ font-family: 'calibri';
+}
+span.rvts12
+{
+ font-family: 'Times New Roman', 'Times', serif;
+}
+span.rvts13
+{
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #000000;
+}
+span.rvts14
+{
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #000000;
+ background-color: #ffffff;
+}
+span.rvts15
+{
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #000000;
+ background-color: #ffffff;
+}
+span.rvts16
+{
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+ color: #000000;
+ background-color: #ffffff;
+}
+span.rvts17
+{
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #000000;
+}
+span.rvts18
+{
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts19
+{
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+}
+span.rvts20
+{
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+ color: #000000;
+ background-color: #ffffff;
+}
+/* ========== Para Styles ========== */
+p,ul,ol /* Paragraph Style */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps1 /* Centered */
+{
+ text-align: center;
+}
+.rvps2 /* Paragraph Style */
+{
+}
+.rvps3 /* Paragraph Style */
+{
+ text-align: center;
+ border-color: #c0c0c0;
+ border-style: solid;
+ border-width: 1px;
+ border-right: none;
+ border-left: none;
+ padding: 2px 0px 2px 0px;
+ margin: 7px 0px 7px 0px;
+}
+.rvps4
+{
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 28px 13px 67px;
+}
+.rvps5
+{
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 28px 13px 91px;
+}
+.rvps6
+{
+ text-indent: -48px;
+ line-height: 1.15;
+ margin: 0px 28px 13px 139px;
+}
+.rvps7
+{
+ line-height: 1.15;
+ margin: 0px 28px 13px 67px;
+}
+.rvps8
+{
+ line-height: 1.15;
+ margin: 0px 28px 13px 91px;
+}
+.rvps9
+{
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 28px 13px 43px;
+}
+.rvps10
+{
+ text-align: justify;
+ margin: 10px 0px 10px 0px;
+}
+.rvps11
+{
+ margin: 10px 0px 10px 0px;
+}
+.rvps12
+{
+ text-indent: -48px;
+ background: #ffffff;
+ margin: 7px 0px 5px 72px;
+}
+.rvps13
+{
+ margin: 10px 0px 10px 55px;
+}

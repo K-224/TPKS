@@ -1,4 +1,19 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?PHP
+        include_once("Loginer.php");
+        include_once("filenames.php");
+        include_once("log_error.php");
+        
+        $loginer = new Loginer();
+        
+       $log_error = new log_error();
+        if ($loginer->IsLogined()){
+            $log_error->set_error("Вы уже зарегистрированы!", "log_error");
+            header("Location:".$main_page);
+            exit;    
+        }
+?>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -68,7 +83,9 @@ color:#000000;
     box-shadow: 0 1px 0 rgba(255, 255, 255, .3) inset;
 }
 
-
+BAD{
+	color:#FF0000;
+}
 
 
 </style>
@@ -90,10 +107,11 @@ color:#000000;
 <form class="registration" method='POST' action=reg.php>
 <table width="300" border="0" align="center" cellspacing="10">
 <tr>
-<td>
-    <input placeholder="Логин" required="" type="login" name="user_name" size="50">
+    <td>
+    <input placeholder="Логин" required="" type="login" name="user_name" size="50">  
     </td>
-    </tr>
+</tr>
+    <?PHP if ($log_error->error_setted("login_error")) echo "<tr><td><BAD>".$log_error->get_error("login_error")."</BAD></td></tr>";?>
     <tr>
 <td>
     <input placeholder="Выберите пароль" required="" type="password" id="passwordl" name="password1" size="50">
@@ -104,6 +122,7 @@ color:#000000;
     <input placeholder="Повторите пароль" required="" type="password" id="password2" name="password2" size="50"> 
         </td>
     </tr> 
+    <?PHP if ($log_error->error_setted("pass_error")) echo "<tr><td><BAD>".$log_error->get_error("pass_error")."</BAD></td></tr>";?>
     <tr>
 <td height="30">            
     <input class="RG"  value="Регистрация" type="submit" >
